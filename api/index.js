@@ -52,6 +52,13 @@ const razorpay = new Razorpay({
 });
 
 
+// Models
+const login_user = require('./models/login_user.js');
+const user_profile = require('./models/user_profile.js');
+const owner = require('./models/owner.js');
+const bill_payment = require('./models/bills.js'); // adjust path if needed
+const meter = require('./models/meter.js'); // adjust path if needed
+const Complaint = require('./models/complain.js');
 
 
 // ✅ Multer configuration
